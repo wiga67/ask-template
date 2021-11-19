@@ -41,4 +41,5 @@ jobs:
       with:
         node-version: 14
     - run: npm install --only=dev
+    - run: npm install -g eslint
     - run: npm run lint
